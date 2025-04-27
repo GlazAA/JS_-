@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список покупок</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Управление списком покупок</h1>
+    
+    <div class="task-one">
+        <h2>Отображение списка покупок</h2>
+        <p>
+            Показать весь список, сначала некупленные продукты, затем купленные.
+        </p>
+        <div>
+            <span>Результат:</span>
+            <span id="answer-task-one" class="span-color"></span>
+        </div>
+        <button id="Task-One-Button" class="btn">Показать список</button>
+    </div>
+    <hr>
+
+    <div class="task-two">
+        <h2>Добавить продукт</h2>
+        <p>
+            Добавить новый продукт или увеличить количество существующего.
+        </p>
+        <div>
+            <input type="text" id="product-name" placeholder="Название продукта">
+            <input type="number" id="product-count" placeholder="Количество" min="1">
+        </div>
+        <div>
+            <span>Статус:</span>
+            <span id="answer-task-two" class="span-color"></span>
+        </div>
+        <button id="Task-Two-Button" class="btn">Добавить</button>
+    </div>
+    <hr>
+
+    <div class="task-three">
+        <h2>Отметить как купленное</h2>
+        <p>
+            Отметить продукт как купленный по названию.
+        </p>
+        <div>
+            <input type="text" id="product-to-buy" placeholder="Название продукта">
+        </div>
+        <div>
+            <span>Статус:</span>
+            <span id="answer-task-three" class="span-color"></span>
+        </div>
+        <button id="Task-Three-Button" class="btn">Купить</button>
+    </div>
+    <hr>
+
+    <script src="index.js"></script>
+</body>
+</html>
