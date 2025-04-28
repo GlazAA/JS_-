@@ -1,0 +1,79 @@
+/* *{
+    box-sizing: border-box;
+}
+
+.dat {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 3px rgba(91, 91,91, 0.54);
+    padding: 100px 30px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.dat input{
+    border: none;
+    border-bottom: 1px solid rebeccapurple;
+    padding: 10px;
+    font-size: 14px;
+} */
+
+/* 2 */
+/* .main-container-two ul {
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+}
+
+.main-container-two ul img{
+    width: 30px;
+    height: 30px;
+}
+.main-container-two button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main-container-two button:hover{
+    opacity: 0.3;
+}
+
+.main-container-two .text{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-container-two .text div {
+    font-size: 14pt;
+} */
+
+/* 3 */
+
+.tabs {
+    border: 1px solid #666;
+    padding: 10px;
+    margin: 50px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.tab {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 5px 10px;
+}
